@@ -9,6 +9,7 @@ using namespace std;
 
 int main()
 {
+<<<<<<< HEAD
     setlocale(LC_ALL, "Russian");
     cout << "Лабораторная работа №1. GIT\n";
     cout << "Вариант №0. Библиотечный абонемент\n";
@@ -71,5 +72,11 @@ int main()
     {
         cout << error << '\n';
     }
+=======
+    cout << "Laboratory work #8. GIT\n";
+    cout << "Variant #0. Library Subscription\n";
+    cout << "Author: Dasha Moiseenko\n";
+    cout << "Group: 23ПИнж1з\n";
+>>>>>>> data
     return 0;
 }
