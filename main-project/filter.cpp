@@ -22,8 +22,3 @@ bool check_book_subscription_by_author(book_subscription* element)
 		strcmp(element->author.middle_name, "") == 0 &&
 		strcmp(element->author.last_name, "") == 0;
 }
-
-bool check_book_subscription_by_date(book_subscription* element)
-{
-	return element->start.month == 3 && element->start.year == 2015;
-}

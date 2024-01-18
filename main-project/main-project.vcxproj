@@ -127,7 +127,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="file_readerr.cpp" />
+    <ClCompile Include="filterr.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="sort.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="data_rate.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="constanss.h" />
+    <ClInclude Include="file_readerr.h" />
+    <ClInclude Include="filterr.h" />
+    <ClInclude Include="rate.h" />
+    <ClInclude Include="sort.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
