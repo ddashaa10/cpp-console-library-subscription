@@ -3,6 +3,6 @@
 
 #include "rate.h"
 
-int process();
+double process(rate** exchanges, int size);
 
 #endif
